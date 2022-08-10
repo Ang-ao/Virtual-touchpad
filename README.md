@@ -1,1 +1,2 @@
-Virtual touchpad
+# Virtual touchpad
+笔记本的触摸板坏了但还想使用鼠标功能怎么办？只需要一个鼠标和本程序，就可以像使用触摸板一样使用鼠标！
