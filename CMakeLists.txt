@@ -27,11 +27,11 @@ include_directories(
 if(WIN32)
     add_executable(${PROJECT_NAME} WIN32)
 else()
-    add_executable(${PROJECT_NAME})
+    add_executable(${PROJECT_NAME} src/VMouse.h)
 endif()
 
 
-file(GLOB sources CONFIGURE_DEPENDS src/*.cpp src/*.h)
+file(GLOB sources CONFIGURE_DEPENDS res/res.qrc src/*.cpp src/*.h)
 
 target_sources(${PROJECT_NAME} PUBLIC ${sources})
 
